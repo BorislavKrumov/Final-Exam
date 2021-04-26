@@ -27,8 +27,8 @@ public class Item {
     @Column(unique = true)
     private String id;
 
-    @NotEmpty
     @NotBlank
+    @NotNull
     private String name;
 
     @NotNull
